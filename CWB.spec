@@ -1,5 +1,5 @@
 Summary:	The Edinburgh Concurrency Workbench
-Summary(pl):	¦rodowisko konkurencji Edinburgh
+Summary(pl):	Edinburgh - ¶rodowisko do badania wspó³bie¿no¶ci
 Name:		CWB
 Version:	7.1
 Release:	0.1
@@ -24,7 +24,7 @@ checking using a variety of different process semantics.
 
 %description -l pl
 Edinburgh Concurrency Workbench (CWB) to automatyczne narzêdzie
-obs³uguj±ce manipulowanie i analizê systemów konkurencyjnych. W
+obs³uguj±ce manipulowanie i analizê systemów wspó³bie¿nych. W
 szczególno¶ci pozwala na ró¿ne równowa¿no¶ci, wstêpne porz±dkowanie i
 sprawdzanie modeli przy u¿yciu wielu ró¿nych semantyk procesów.
 
