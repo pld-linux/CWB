@@ -1,4 +1,5 @@
-Summary:	The Edinburgh Concurrency Workbenc
+Summary:	The Edinburgh Concurrency Workbench
+Summary(pl):	¦rodowisko konkurencji Edinburgh
 Name:		CWB
 Version:	7.1
 Release:	0.1
@@ -16,10 +17,16 @@ BuildRequires:	smlnj >= 110
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The Edinburgh Concurrency Workbench (CWB) is an automated tool which caters for
-the manipulation and analysis of concurrent systems. In particular, the CWB
-allows for various equivalence, preorder and model checking using a variety of
-different process semantics.
+The Edinburgh Concurrency Workbench (CWB) is an automated tool which
+caters for the manipulation and analysis of concurrent systems. In
+particular, the CWB allows for various equivalence, preorder and model
+checking using a variety of different process semantics.
+
+%description -l pl
+Edinburgh Concurrency Workbench (CWB) to automatyczne narzêdzie
+obs³uguj±ce manipulowanie i analizê systemów konkurencyjnych. W
+szczególno¶ci pozwala na ró¿ne równowa¿no¶ci, wstêpne porz±dkowanie i
+sprawdzanie modeli przy u¿yciu wielu ró¿nych semantyk procesów.
 
 %prep
 %setup -q -n %{name}%{version}
@@ -32,7 +39,7 @@ sml < custom.ml
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/%{name}}
 
-install cwb.x86-linux $RPM_BUILD_ROOT%{_datadir}/%{name}/
+install cwb.x86-linux $RPM_BUILD_ROOT%{_datadir}/%{name}
 
 cat <<EOF >$RPM_BUILD_ROOT%{_bindir}/cwb
 #!/bin/sh
