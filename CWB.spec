@@ -2,10 +2,11 @@ Summary:	The Edinburgh Concurrency Workbench
 Summary(pl):	Edinburgh - ¶rodowisko do badania wspó³bie¿no¶ci
 Name:		CWB
 Version:	7.1
-Release:	0.1
+Release:	1
 License:	free for non-commercial
-Group:		Development/Tools
 # http://www.dcs.ed.ac.uk/home/cwb/copyright.html
+Group:		Development/Tools
+# http://homepages.inf.ed.ac.uk/perdita/cwb/CWBEXPORTDIR/src.tar.gz
 Source0:	src.tar.gz
 # NoSource0-md5:	76eab4c6ccab3990b9d0e496dbf283e5
 # http://www.dcs.ed.ac.uk/home/cwb/getting.html
