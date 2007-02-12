@@ -1,5 +1,5 @@
 Summary:	The Edinburgh Concurrency Workbench
-Summary(pl.UTF-8):   Edinburgh - środowisko do badania współbieżności
+Summary(pl.UTF-8):	Edinburgh - środowisko do badania współbieżności
 Name:		CWB
 Version:	7.1
 Release:	1
